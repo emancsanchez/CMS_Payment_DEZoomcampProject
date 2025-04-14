@@ -47,5 +47,9 @@ Here is my dashboard with the relative data:
 ![Dashboard](dashboard.png)
 
 
+# Future Plans
+
+I would like to explore the general payment dataset, but it would also require more exploration and setup with pyspark as those data sets are in the tens of millions rows long. Keep following the repo and project for future updates on the development of this project.
+
 
 
