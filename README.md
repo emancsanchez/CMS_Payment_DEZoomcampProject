@@ -35,10 +35,10 @@ In this pipeline we will only be extracting the Ownershsip and Invemtment intere
 
 Tools used for this project:
 
-Airflow for Orchestration
-Google Cloud Storage 
-Google BigQuery
-Tableau as Data Visualization
+#Airflow for Orchestration
+#Google Cloud Storage 
+#Google BigQuery
+#Tableau as Data Visualization
 
 
 
