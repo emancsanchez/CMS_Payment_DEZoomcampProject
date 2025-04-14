@@ -33,12 +33,13 @@ Other financial instruments that are secured with an entity’s property or reve
 
 In this pipeline we will only be extracting the Ownershsip and Invemtment interests datasets from year 2017-2023.
 
-Tools used for this project:
+## Tools used for this project:
 
-#Airflow for Orchestration
-#Google Cloud Storage 
-#Google BigQuery
-#Tableau as Data Visualization
+Python with Pandas  
+Airflow for Orchestration  
+Google Cloud Storage  
+Google BigQuery  
+Tableau as Data Visualization  
 
 
 
