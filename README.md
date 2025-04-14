@@ -31,4 +31,14 @@ Loans
 Bonds or
 Other financial instruments that are secured with an entity’s property or revenue or a portion of that property or revenue
 
+In this pipeline we will only be extracting the Ownershsip and Invemtment interests datasets from year 2017-2023.
+
+Tools used for this project:
+
+Airflow for Orchestration
+Google Cloud Storage 
+Google BigQuery
+Tableau as Data Visualization
+
+
 
