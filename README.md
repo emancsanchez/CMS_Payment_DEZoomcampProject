@@ -40,6 +40,9 @@ Airflow for Orchestration
 Google Cloud Storage  
 Google BigQuery  
 Tableau as Data Visualization  
+Terraform for Google Bucket Creation, IaC  
+
+
 
 
 
