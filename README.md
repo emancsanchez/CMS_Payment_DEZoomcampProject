@@ -44,7 +44,7 @@ Terraform for Google Bucket Creation, IaC
 
 Here is my dashboard with the relative data:
 
-![Example Image](example.png).
+![Dashboard](vRKoNpc - Imgur.png)
 
 
 
