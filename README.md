@@ -23,13 +23,13 @@ Payments that are associated with a research study.
 Ownership and Investment interests
 Ownership and investment interest includes, but is not limited to:
 
-Stock
-Stock option(s) (other than those received as compensation, until they are exercised)
-Partnership share(s)
-Limited liability company membership(s)
-Loans
-Bonds or
-Other financial instruments that are secured with an entity’s property or revenue or a portion of that property or revenue
+* Stock
+* Stock option(s) (other than those received as compensation, until they are exercised)
+* Partnership share(s)
+* Limited liability company membership(s)
+* Loans
+* Bonds or
+other financial instruments that are secured with an entity’s property or revenue or a portion of that property or revenue
 
 In this pipeline we will only be extracting the Ownershsip and Invemtment interests datasets from year 2017-2023.
 
@@ -42,10 +42,21 @@ Google BigQuery
 Tableau as Data Visualization  
 Terraform for Google Bucket Creation, IaC  
 
+## Workflow
+
+* Python was used to request and download CSVs by a local homeserver
+* Pandas was then used to clean and set the schema for the data before being saved as a csv: OWNRSHP_{year}_correctPD.csv
+* That data was saved to the local server then uploaded to Google Storage Bucket
+* Those CSVs were then uploaded by code to Google BigQuery as an external table
+* All 4 steps were performed as its own PythonOperator in Airflow.
+
 Here is my dashboard with the relative data:
 
 ![Dashboard](dashboard.png)
 
+Following is the link to the interactive dasbhboard:
+
+https://public.tableau.com/views/CMSDashboard_17448285989530/OwnershipInvestmentDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 # Future Plans
 
