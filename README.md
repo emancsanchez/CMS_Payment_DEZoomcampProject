@@ -43,7 +43,8 @@ Tableau as Data Visualization
 Terraform for Google Bucket Creation, IaC  
 
 ## Workflow
-
+![Flowchart](DECapFlowcharts.png)
+  
 * Python was used to request and download CSVs by a local homeserver
 * Pandas was then used to clean and set the schema for the data before being saved as a csv: OWNRSHP_{year}_correctPD.csv
 * That data was saved to the local server then uploaded to Google Storage Bucket
